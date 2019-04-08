@@ -7,13 +7,15 @@ import { ErrorComponent } from './componentes/error/error.component';
 import { PrimeraAComponent } from './componentes/primera-a/primera-a.component';
 import { PrimeraBComponent } from './componentes/primera-b/primera-b.component';
 import { TablasComponent } from './componentes/tablas/tablas.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'primeraA', component: PrimeraAComponent },
-  { path: 'primeraB', component: PrimeraBComponent},
-  { path: 'tablas', component: TablasComponent},
+  { path: 'primeraB', component: PrimeraBComponent },
+  { path: 'tablas', component: TablasComponent },
+  { path: 'login', component: LoginComponent },
   { path: '**', component: ErrorComponent }
 ];
 

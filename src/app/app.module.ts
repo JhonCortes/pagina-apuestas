@@ -13,6 +13,8 @@ import { ErrorComponent } from './componentes/error/error.component';
 import { PrimeraAComponent } from './componentes/primera-a/primera-a.component';
 import { PrimeraBComponent } from './componentes/primera-b/primera-b.component';
 import { TablasComponent } from './componentes/tablas/tablas.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { RegistrarComponent } from './componentes/registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { TablasComponent } from './componentes/tablas/tablas.component';
     ErrorComponent,
     PrimeraAComponent,
     PrimeraBComponent,
-    TablasComponent
+    TablasComponent,
+    LoginComponent,
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
