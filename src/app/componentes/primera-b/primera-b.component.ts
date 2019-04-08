@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrimeraBComponent implements OnInit {
 
-  constructor() { }
+  public titulo: string;
+
+  constructor() {
+    this.titulo = "primera b"
+  }
 
   ngOnInit() {
   }

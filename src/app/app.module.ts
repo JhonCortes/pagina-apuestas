@@ -12,6 +12,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { PrimeraAComponent } from './componentes/primera-a/primera-a.component';
 import { PrimeraBComponent } from './componentes/primera-b/primera-b.component';
+import { TablasComponent } from './componentes/tablas/tablas.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PrimeraBComponent } from './componentes/primera-b/primera-b.component';
     HomeComponent,
     ErrorComponent,
     PrimeraAComponent,
-    PrimeraBComponent
+    PrimeraBComponent,
+    TablasComponent
   ],
   imports: [
     BrowserModule,
