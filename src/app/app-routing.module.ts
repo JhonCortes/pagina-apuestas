@@ -8,6 +8,7 @@ import { PrimeraAComponent } from './componentes/primera-a/primera-a.component';
 import { PrimeraBComponent } from './componentes/primera-b/primera-b.component';
 import { TablasComponent } from './componentes/tablas/tablas.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { RegistrarComponent } from './componentes/registrar/registrar.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'primeraB', component: PrimeraBComponent },
   { path: 'tablas', component: TablasComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'registroUser', component: RegistrarComponent},
   { path: '**', component: ErrorComponent }
 ];
 

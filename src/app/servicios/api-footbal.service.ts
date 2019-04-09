@@ -5,7 +5,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { Observable, } from 'rxjs';
-import { Liga } from '../models/liga';
 
 @Injectable({
   providedIn: 'root'

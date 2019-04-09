@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiFootbalService } from '../../servicios/api-footbal.service';
 
-@Component({
+@Component({ 
   selector: 'app-tablas',
   templateUrl: './tablas.component.html',
   styleUrls: ['./tablas.component.css'],
